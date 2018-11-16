@@ -11,10 +11,10 @@
 
 
 
-class: inverse, right, bottom
+class: right, bottom
 background-image: url("images/balance.jpg")
 background-position: top left
-background-size: 100% 70%
+background-size: 100% 67%
 
 ## Balancing Equity &amp; Choice
 #### Recommending Services for Personal Needs
@@ -99,6 +99,7 @@ background-size: 50% 100%
 ### Notes:
 
 – We are recommending service thresholds based on assessed need.  
+- Nothing within the thresholds are magic, they have to fit within a process
 - The model *does not* put a cap on the number of units of a particular service type.
 - Since no tool perfectly captures medical necessity criteria, the guidance is to start with the recommended thresholds and to revise them if they do not make 'clinical sense'.
 - Thresholds should be considered initial sketches of what the person might receive. They can be revised up or down based on clinical assessment of medical necessity.
@@ -106,9 +107,24 @@ background-size: 50% 100%
 - Any system that draws boundaries/thresholds is bound to draw them in a way which does not account for an individual's situation.  Thus, there needs to be a process (*and not an onerous, painful process*) so people can redraw the boundary (i.e. exception process)
 - Differences between levels have to be dotted lines and not walls.
 
-
 ---
 class: inverse, right, middle 
+background-image: url("images/equal.jpg")
+background-position: left
+background-size: 50% 100%
+
+### Equity
+
+???
+### Notes:
+
+- PIHPs are responsible to provide a regional benefit, with consistent and standardized eligibility criteria
+- The intent of this model is that no matter where people show up, they will have access to a consistent benefit.
+- It shouldn't matter what door you enter, you should be eligible for the same services anywhere in the region
+- Equity takes relevant needs into consideration.  In the current model, it is based on level/type of need and disability population.
+
+---
+class:right, middle 
 background-image: url("images/water.jpg")
 background-position: left
 background-size: 50% 100%
@@ -126,21 +142,74 @@ background-size: 50% 100%
 - The lines we draw can overrun budgets or underrun budgets....acknowledging the fiscal realities of this tension is critical
 
 ---
-class: left, middle 
-background-image: url("images/stop.jpg")
+class: left, bottom 
+background-image: url("images/sketch.jpg")
+background-position: 0% 0%
+background-size: cover
+
+# Methods
+
+???
+### Notes:
+
+---
+class: right, middle 
+background-image: url("images/collab.jpg")
 background-position: left
 background-size: 50% 100%
 
+### Terminology
 
 ???
 ### Notes:
-
+- The phrase 'Level of Care' is used in conversations to mean various things: from 'level of need', to 'level of service needed', to 'level of service authorized'
+- We started by defining our terms, clarifying what we meant by:
 
 ---
-class: inverse, left, middle
+class: inverse, right, middle 
+background-image: url("images/coding.jpg")
+background-position: left
+background-size: 50% 100%
+
+### Data Informed
+
+.pull-right[
+- Policy-based scoping
+- Needs-based episodes
+- Service groupings
+- Maximum use
+- Excluding outliers
+]
 
 ???
 ### Notes:
+Our assumption is that previous use of services was usually appropriate and based on the need indicated by the assessment.
+- *Policy-based scoping*: Filtering/defining service scope based on policy considerations
+- *Needs-based episodes*: Make inter-assessment episodes of service.  Group by level of need (e.g. in LOCUS, this was the clinician-adjusted LOC score)
+- *Service groupings*: Group services by type
+- *Maximum use*: Find maximum per-person values for each HCPCS code
+- *Excluding outliers*: Remove upper-end outliers. Select resulting value as the recommended upper threshold
+
+Types of Service
+- Rationale: Simplifying options increases participation ([Iyengar, 2010](https://www0.gsb.columbia.edu/mygsb/faculty/research/pubfiles/4519/simplicitySeeking.pdf))
+- High and low utilization of one service should not be looked at only in isolation, often the entire package of service utilization will provide a more comprehensive view.
+- Example: Instead of having a lower threshold for both T1016 and T1017, combine both of these into a 'Care Coordination' group which has a higher threshold to allow fluidity in moving between services as necessary.
+- Allowing for a choice of multiple relevant services while controlling for use of multiple similar services
+
+---
+class: inverse, right, middle 
+background-image: url("images/draft.jpg")
+background-position: left
+background-size: 50% 100%
+
+### Iterative Testing
+
+#### (a.k.a. Try, try again)
+
+???
+### Notes:
+- Developed output to demonstrate the real-world impact that setting certain parameters would have on existing processes.
+- Multiple UM and clinical reviews of output to ensure face validity; this involved retrospective review of individual cases which were flagged using each iteration of the logic
 
 ---
 class: center, middle 
