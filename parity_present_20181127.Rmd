@@ -271,11 +271,12 @@ background-size: 50% 100%
 - Multiple UM and clinical reviews of output to ensure face validity; this involved retrospective review of individual cases which were flagged using each iteration of the logic
 
 ---
-class: center, middle 
-background-image: url("images/balloon_chair.jpg")
-background-position: left
-background-size: 50% 100%
+class: inverse, left, bottom 
+background-image: url("images/cloverleaf.jpg")
+background-position: 0% 0%
+background-size: cover
 
+# Where next?
 
 ???
 ### Notes:
@@ -284,12 +285,7 @@ background-size: 50% 100%
 - Define process for refining accuracy of recommendations based on use and overrides.
 
 ---
-class: left, top
-
-???
-### Notes:
-
----
 class: center, middle
+
 background-image: url(http://www.tbdsolutions.com/wp-content/themes/tbdsolutions/images/logo.png)
 
