@@ -89,12 +89,14 @@ background-size: 50% 100%
 #### Notes:
 
 - In order for ease of implementation and explanation, there should be a consistent conceptual framework which applies across populations.
-- This does not mean that there is not complxity built into the 'back-end', but that the resulting model should be simple to explain and use (*cf. iPhone setup*)
+- This does not mean that there is not complexity built into the 'back-end', but that the resulting model should be simple to explain and use (*cf. iPhone setup*)
 - The model should include a method to monitor the use of all services across all populations, though this method may be different for different services (*e.g. intake and assessment, where a person has not yet had a determination of need*)
+- The framework should be supported by existing data and the methodology should be reproducible and shareable
 
-#### View analyis
+#### View analysis
 
 - Show service grid format
+- Show service groupings
 
 ---
 class: right, middle 
@@ -161,7 +163,7 @@ background-size: 50% 100%
 
 - The model is based on needs, and modified based on medical necessity.
 - That said, there is recognition that resources are finite, and must be shared equitably among those accessing them.
-- If needs exceed resources, then what is the most equitable means of distributing resources?
+- If total population needs exceed resources, then what is the most equitable means of distributing resources?
 - The initial development of this model has been based on the assumption that, because (a) it is based on previous service use and (b) these previous services were provided based on medical necessity, and (c) the region did not previously overrun budgets, and (d) the recommended thresholds are more circumscribed than previous LOC versions, then (e) it is likely that the model will not 
 - While we are trying to achieve regional consistency (potentially statewide consistency) - there is tension due to the contract requirements to both have to meet individuals needs and ensure you have adequate resources to meet everyone's need.
 - The lines we draw can overrun budgets or underrun budgets....acknowledging the fiscal realities of this tension is critical
@@ -201,6 +203,10 @@ We started by defining our terms, clarifying what we meant by:
 - *Level of Need*: The numeric Level of Care (1, 2, 3, etc.) identified by a need identification tool. Some tools (e.g. LOCUS) incorporate a clinician's endorsement or revision of the level of care into the recommended LOC, while other tools (e.g. CAFAS/PECFAS) have a recommended LOC assigned based on where the aggregate score falls within an established range of groups.
 - *Authorized Level of Care*: The types of HCPCS codes and associated ranges of units which are authorized for an individual based on the prescribed LOC. These are often recommended based on existing CMHSP-specific 'service grids' and available only within a given organization's electronic medical record (EMR).
 - *LOC Provided*: The types of HCPCS codes and number of units that an individual actually receives, as indicated by encounter data. For instance, there are cases where individuals with higher LOCUS scores are served successfully in community settings based on other clinical considerations.
+
+#### View analyses
+
+- Show documentation
 
 ---
 class: inverse, right, middle 
@@ -270,6 +276,10 @@ background-size: 50% 100%
 - Developed output to demonstrate the real-world impact that setting certain parameters would have on existing processes.
 - Multiple UM and clinical reviews of output to ensure face validity; this involved retrospective review of individual cases which were flagged using each iteration of the logic
 
+#### View analyses
+
+- Show sliders and analyses using inputs
+
 ---
 class: inverse, left, bottom 
 background-image: url("images/cloverleaf.jpg")
@@ -280,11 +290,17 @@ background-size: cover
 
 ???
 ### Notes:
+- Defining boundaries between populations.  I.e. if an 18 year old receives both a CAFAS and a LOCUS score and is receiving SED Waiver services, which tool is used to established the recomended threshold?
 - Develop guidance for clinical rationale of authorization exceptions.
 - Update CAFAS/PECFAS (SED) Service Utilization Guidelines, then ASAM and SIS.
 - Define process for refining accuracy of recommendations based on use and overrides.
 
+Vertical vs. Horizontal
+- Levels of care are artificial constructs - think of them like take-out menus....once the menu has been selected, then you order individual dishes (then you can see which ranges of individual services someone is eligible for)
+- Don't automatically assume that all services should be available in greater amounts at higher levels of care - some services may not be appropriate/beneficial at higher levels of care; some services will be more beneficial at higher amounts for lower levels of care (it's not a linear relationship)
+
 ---
+
 class: center, middle
 
 background-image: url(http://www.tbdsolutions.com/wp-content/themes/tbdsolutions/images/logo.png)

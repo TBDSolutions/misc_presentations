@@ -86,10 +86,12 @@ background-size: 50% 100%
 - In order for ease of implementation and explanation, there should be a consistent conceptual framework which applies across populations.
 - This does not mean that there is not complxity built into the 'back-end', but that the resulting model should be simple to explain and use (*cf. iPhone setup*)
 - The model should include a method to monitor the use of all services across all populations, though this method may be different for different services (*e.g. intake and assessment, where a person has not yet had a determination of need*)
+- The framework should be supported by existing data and the methodology should be reproducible and shareable
 
-#### View analyis
+#### View analysis
 
 - Show service grid format
+- Show service groupings
 
 ---
 class: right, middle 
@@ -197,6 +199,10 @@ We started by defining our terms, clarifying what we meant by:
 - *Authorized Level of Care*: The types of HCPCS codes and associated ranges of units which are authorized for an individual based on the prescribed LOC. These are often recommended based on existing CMHSP-specific 'service grids' and available only within a given organization's electronic medical record (EMR).
 - *LOC Provided*: The types of HCPCS codes and number of units that an individual actually receives, as indicated by encounter data. For instance, there are cases where individuals with higher LOCUS scores are served successfully in community settings based on other clinical considerations.
 
+#### View analyses
+
+- Show documentation
+
 ---
 class: inverse, right, middle 
 background-image: url("images/coding.jpg")
@@ -265,6 +271,10 @@ background-size: 50% 100%
 - Developed output to demonstrate the real-world impact that setting certain parameters would have on existing processes.
 - Multiple UM and clinical reviews of output to ensure face validity; this involved retrospective review of individual cases which were flagged using each iteration of the logic
 
+#### View analyses
+
+- Show sliders and analyses using inputs
+
 ---
 class: inverse, left, bottom 
 background-image: url("images/cloverleaf.jpg")
@@ -275,11 +285,17 @@ background-size: cover
 
 ???
 ### Notes:
+- Defining boundaries between populations.  I.e. if an 18 year old receives both a CAFAS and a LOCUS score and is receiving SED Waiver services, which tool is used to established the recomended threshold?
 - Develop guidance for clinical rationale of authorization exceptions.
 - Update CAFAS/PECFAS (SED) Service Utilization Guidelines, then ASAM and SIS.
 - Define process for refining accuracy of recommendations based on use and overrides.
 
+Vertical vs. Horizontal
+- Levels of care are artificial constructs - think of them like take-out menus....once the menu has been selected, then you order individual dishes (then you can see which ranges of individual services someone is eligible for)
+- Don't automatically assume that all services should be available in greater amounts at higher levels of care - some services may not be appropriate/beneficial at higher levels of care; some services will be more beneficial at higher amounts for lower levels of care (it's not a linear relationship)
+
 ---
+
 class: center, middle
 
 background-image: url(http://www.tbdsolutions.com/wp-content/themes/tbdsolutions/images/logo.png)
@@ -323,7 +339,7 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
 (function () {
   var script = document.createElement('script');
   script.type = 'text/javascript';
-  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
   if (location.protocol !== 'file:' && /^https?:/.test(script.src))
     script.src  = script.src.replace(/^https?:/, '');
   document.getElementsByTagName('head')[0].appendChild(script);
