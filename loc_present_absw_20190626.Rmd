@@ -1,0 +1,215 @@
+---
+title: "A Core Service Menu"
+subtitle: "Balancing Equity & Choice"
+date: "2019.06.26"
+output:
+  xaringan::moon_reader:
+    seal: false # disable default title slide
+    css: ["default","css/define-fonts.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+class: right, bottom 
+background-image: url("images/apples.jpg")
+background-position: 0% 0%
+background-size: cover
+
+## A Core Service Menu
+
+**Balancing Equity & Choice** | *presented on* 2019.06.26 
+
+---
+class: right, middle 
+background-image: url("images/person.jpg")
+background-position: left
+background-size: 50% 100%
+
+### A starting point,<br/>not a finish line
+
+???
+**Notes:**
+
+- The core service menus and related documentation comprise an *initial starting point* to inform the development of an equitable benefit.  They correspond to the scope of work requested by MSHN's ABSW.
+- It is intended for initial testing as part of a retrospective review process.  Iterative refinement will be needed in order to refine exception reporting to align with clinial practice.  Multiple UM and clinical reviews needed to ensure face validity, including retrospective review of individual cases flagged.
+- They are accompanied by additional considerations which can improve the initial version, and should be developed through multidisciplinary collaboration (e.g. between people receiving services, UM, clinicians, finance, etc.)
+
+---
+class: inverse, right, middle 
+background-image: url("images/equal.jpg")
+background-position: left
+background-size: 50% 100%
+
+## Guiding Values
+
+.pull-right[
+- Person-centered
+- Equitable
+- Common goods
+- Lines, not walls
+- Consistent framework
+]
+
+*See relevant guidance*
+
+???
+**Notes:**
+
+1.  Person-Centered: The framework developed must support a person-centered approach to service planning by making concrete choices in its design, which go beyond merely paying lip-service to person-centered planning.  These design decisions include the following:
+  + *Not* automating services or amounts
+  + Recommendation of a menu of relevant services (*based on a person's needs*) which the person can select from.
+  + Providing coherent categories to choose from in order to increase satisfaction with choice ([Mogilner, 2008](https://pdfs.semanticscholar.org/706b/84d3567ba03939c3748c94dae36a74a5a64f.pdf))
+  + Framing the recommended thresholds as 'recommendations': defaults which can be overridden based on personal choice and medical necessity determination.
+  + "*We show the dots, but the person needs to connect the dots.  And they can draw outside of the lines when needed.*"
+
+2.  Equitable
+  + PIHPs are responsible to provide a regional benefit, with consistent and standardized eligibility criteria
+  + The intent of this model is that no matter where people show up, they will have access to a consistent benefit.
+  + It shouldn't matter what door you enter, you should be eligible for the same services anywhere in the region
+  + Equity takes relevant needs into consideration.  In the current model, it is based on level/type of need and disability population.
+
+3.  Common goods:
+  + The model is based on needs, and modified based on medical necessity.
+  + That said, there is recognition that resources are finite, and must be shared equitably among those accessing them.
+  + If total population needs exceed resources, then what is the most equitable means of distributing resources?
+  + The initial development of this model has been based on the assumption that, because (a) it is based on previous service use and (b) these previous services were provided based on medical necessity, and (c) the region did not previously overrun budgets, and (d) the recommended thresholds are more circumscribed than previous LOC versions, then (e) it is likely that the model will not 
+  + While we are trying to achieve regional consistency (potentially statewide consistency) - there is tension due to the contract requirements to both have to meet individuals needs and ensure you have adequate resources to meet everyone's need.
+  + The lines we draw can overrun budgets or underrun budgets....acknowledging the fiscal realities of this tension is critical
+
+4.  Lines, Not Walls:
+  + We are recommending service thresholds based on assessed need.  
+  + Nothing within the thresholds are magic, they have to fit within a process
+  + The model *does not* put a cap on the number of units of a particular service type.
+  + Since no tool perfectly captures medical necessity criteria, the guidance is to start with the recommended thresholds and to revise them if they do not make 'clinical sense'.
+  + Thresholds should be considered initial sketches of what the person might receive. They can be revised up or down based on clinical assessment of medical necessity.
+  + Ranges or thresholds never presume that the number of units recommended is either: (a) an absolute exclusion, or (b) a benefit that one is entitled to. *Example*:  If a doctor tells you that it is typical for people to have a 3-day stay following a C-section, this does not mean that (a) you may not stay longer if needed, or (b) if you are ready to leave after 1 day, you can choose to stay for the other two as well.
+  + Any system that draws boundaries/thresholds is bound to draw them in a way which does not account for an individual's situation.  Thus, there needs to be a process (*and not an onerous, painful process*) so people can redraw the boundary (i.e. exception process)
+  + Differences between levels have to be dotted lines and not walls.
+
+5.  Consistent framework:
+  + In order for ease of implementation and explanation, there should be a consistent conceptual framework which applies across populations.
+  + This does not mean that there is not complexity built into the 'back-end', but that the resulting model should be simple to explain and use (*cf. iPhone setup*)
+  + The model should include a method to monitor the use of all services across all populations, though this method may be different for different services (*e.g. intake and assessment, where a person has not yet had a determination of need*)
+  + The framework should be supported by existing data and the methodology should be reproducible and shareable
+
+6. Relevant MDHHS Guidance:
+  + "Decisions regarding the authorization of a B(3) service (including the amount, scope and duration) must take into account the PIHP’s documented capacity to reasonably and equitably serve other Medicaid beneficiaries who also have needs for these services. The B(3) supports and services are not intended to meet all the individual’s needs and preferences, as some needs may be better met by community and other natural supports." *MDHHS Medicaid Provider Manual Section 17.2*
+  + "…this approach will not establish or serve as the authorization for the supports and services of an individual and will be used to inform the person-centered planning process which is driven by the individual." *Wieferich, J. (2018, October 1). Parity (Letter to PIHP and CMHSP Executive Directors).*
+  + Do not use: (a) "As an arbitrary methodology for determining the amount, scope, and duration… outside of a person-centered planning process", (b) "As a means for achieving budget reductions.", (c) "As a process which supplants use of medical necessity criteria..." *Renwick, T. (2015, October 22). Inappropriate Use of Assessments and Screening Tools (Letter to PIHP Executive Directors).*
+
+---
+class: right, middle 
+background-image: url("images/journey.jpg")
+background-position: left
+background-size: 50% 100%
+
+## Deliverables
+
+.pull-right[
+- Core Service Menu (*SMI*)
+- Core Service Menu (*SED*)
+- Guidelines Documentation 
+- Reproducible Logic
+]
+
+???
+**Notes:**
+
+1.  Core Service Menus
+  + The Core Service Menu implements a common benefit package based on the need identification tool used for a defined population.  If a service group in the menu has a recommended threshold other than zero at a given level of care, then the CPT/HCPCS code is pre-authorized such that any number of units up to the recommended threshold listed *can be* provided for the pre-authorized service to a given beneficiary. 
+  + Menus were developed for all individuals who had received a LOCUS assessment or a CAFAS/PECFAS assessment
+
+2.  Guidelines Documentation
+  + Menus do not exist in a vacuum.  They are part of a process and based on assumptions.
+  + As with any tool, they can be used well or poorly.
+
+3.  Reproducible logic
+  + Reproducible code logic to allow for analysis, modification or updating of the core service menu.
+  + Supports evaluation, transparency and accountability.
+
+---
+class: inverse, right, middle 
+background-image: url("images/coding.jpg")
+background-position: left
+background-size: 50% 100%
+
+## Methods
+
+.pull-right[
+- Terminology
+- Policy-based scoping
+- Relevant datasets
+- Needs-based episodes
+- Service groupings
+- Maximum use
+- Outlier identification
+]
+
+???
+**Notes:**
+
+Our assumption is that previous use of services was usually appropriate and based on the need indicated by the assessment.
+
+1.  *Terminology:* We've seen the phrase 'Level of Care' used in conversations to mean various things: from 'level of need', to 'level of service needed', to 'level of service authorized'.  We've also unfortunately witnessed it being used as shorthand, referring to people by their LOC (e.g. “They’re a level 2 person”).  Here, we are talking about the services that have historically been received by people who have similar needs as assessed by a standardized tool.  The terms below specify a few separate meanings used throughout the document:
+  + *LOC Recommended*: The numeric Level of Care (1, 2, 3, etc.) identified by a [need identification tool](#need_id_tools). Some tools (e.g. *LOCUS*) incorporate a clinician's endorsement or revision of the level of care into the recommended LOC, while other tools (e.g. *CAFAS®/PECFAS®*) have a recommended LOC assigned based on where the aggregate score falls within an established range of scores.
+  + *LOC Authorized*: The types of HCPCS codes and associated ranges of units which are authorized for an individual based on the prescribed LOC. These are often recommended based on existing CMHSP-specific 'service grids' and available only within a given organization's electronic medical record (EMR).
+  + *LOC Provided*: The types of HCPCS codes and number of units that an individual actually receives, as indicated by encounter/claims data. For instance, there are cases where individuals with lower recommended LOC scores may actually receive a higher number of units for a given service in reality.  This could occur for a variety of reasons (e.g. clinical override of recommended LOC, use of unnecessary services, etc.).
+  
+2.  *Policy-based scoping*: Filtering/defining service scope based on policy considerations
+
+3.  *Relevant datasets*: Datasets included assessment data and >=2 years of assessment data.  The value of using this data is difficult to overstate, since the levels or outputs from the standardized tools used in Michigan do not map perfectly to the community-based services in the Michigan specialty services benefit, and how some translation from the “level of care” determined by the LOCUS, for example, needs to be mapped to the actual services and supports offered in a local community.
+
+4.  *Needs-based episodes*: Make inter-assessment episodes of service.  Group by level of need (e.g. in LOCUS, this was the clinician-adjusted LOC score).  Annualized service units to normalize variable episode length.
+
+5.  *Service groupings*: Group services by type in certain instances.  Allowing for a choice of multiple relevant services while controlling for use of multiple similar services.  Research also shows that simplifying options can increase participation ([Iyengar, 2010](https://www0.gsb.columbia.edu/mygsb/faculty/research/pubfiles/4519/simplicitySeeking.pdf)).  See recommendations to consider adopting service groupings based on: *Services with Common Focus or Objective*, and *Services with Common Unit Type*.  
+
+6.  *Maximum use*: Find maximum per-person values for each HCPCS code. 
+
+7.  *Excluding outliers*: Remove upper-end outliers. Inter Quartile Range (IQR) methodology was used to identify service outliers.  IQR finds the range of the middle 50% of the data (the difference between the first quartile and third quartile) and multiplies that value by 1.5. The output of that calculation is then added to value of the third quartile, and anything falling above that threshold is deemed an outlier. Select resulting value as the recommended upper threshold.
+
+---
+class: right, middle 
+background-image: url("images/choice.jpg")
+background-position: left
+background-size: 50% 100%
+
+## Recommend
+
+.pull-right[
+- Focus on Common Services
+- Develop Attribution Methods 
+- Select LOCUS Score Type
+- Use of Service Groupings
+- Rounding/Increments
+]
+
+???
+**Notes:**
+
+1.  *Focus on Common Services*: Many of the service codes included are used by fewer than *3%* of the individuals at any given level of need.  The PIHP should consider whether these infrequently used services are representative of a "core" service menu and should be expected as part of standard services for the population.
+2.  *Develop Attribution Methods*:  Individual beneficiaries will often meet criteria for inclusion in multiple populations, and also receive multiple types of assessments (such as *CAFAS* and *LOCUS*) during the same time period.  In order to promote clarity regarding the menu of services available to a specific individual, the PIHP should consider developing explicit logic to define a primary population for each individual.  The intent of the attribution logic is to: (a) clearly and consistently identify which Core Service Menu an individual has access to; and (b) assure that relevant services are available to individuals with complex needs
+3.  *Select LOCUS Score Type*:  The Core Service Menu relies on the clinician's revised level of care score to indicate the [recommended level of care](#loc_recommended), rather than the output from the LOCUS algorithm.  This is essentially a way of asking the clinicians, through their previous practice: "What services do you associate with a given level of care?"  Once this method is used to determine the recommended threshold per service at a given level in the Core Service Menu, and the related thresholds are compared to the existing LOC guidelines, the PIHP must decide whether to continue using the clinician score to cue UM reviews, or whether to use the algorithm score.
+4.  *Use of Service Groupings*:  We recommend that the PIHP consider adopting a standard service grouping taxonomy for available Medicaid specialty services, grouped together based on two primary considerations: (a) focus or objective of service, and (b) unit type.
+5.  *Rounding/Increments*:
+  +  Consider implementing logic to account for instances where the recommended threshold does not increase as the Level of Care increases. 
+  +  For some services a small difference in units is not clinically meaningful and therefore developing logic to round units to the nearest value of 10 or 25 may make the output more intuitive to users.  While this is something of a 'cosmetic' concern, it may nevertheless assist with adoption of the thresholds.  This benefit should be weighed against the impact on resource availability.
+
+---
+class: right, middle 
+background-image: url("images/pencils.jpg")
+background-position: 0% 0%
+background-size: cover
+
+## Questions?
+
+---
+class: center, middle
+
+background-image: url(http://www.tbdsolutions.com/wp-content/themes/tbdsolutions/images/logo.png)
+
